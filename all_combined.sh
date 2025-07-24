@@ -13,6 +13,7 @@ echo "second parameter $2"
 echo "total no of parameters $#"
 
 com
+
 <<com
 
 #declaring and accessing array variables
@@ -203,8 +204,9 @@ else
    echo "$a -le $b: a is not less or equal to b"
 fi
 
-
 com
+
+<<com
 
 #File Test operators
 

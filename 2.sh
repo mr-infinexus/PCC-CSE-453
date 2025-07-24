@@ -1,11 +1,11 @@
 #!/bin/bash
-echo "Enter rhe Number"
+echo "Enter the Number"
 read number
 sum=0
-temp_number=$number
-while [[ $temp_number -gt 0 ]]; do
-    digit=$(($temp_number % 10))
+temp=$number
+while [[ $temp -gt 0 ]]; do
+    digit=$(($temp % 10))
     sum=$(($sum + $digit))
-    temp_number=$(($temp_number / 10))
+    temp=$(($temp / 10))
 done
 echo "The sum of the digits of $number is: $sum"

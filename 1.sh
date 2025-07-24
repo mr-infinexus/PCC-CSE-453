@@ -9,5 +9,5 @@ done
 if [ $input == $reverse ]; then
     echo "$input is a Palindrome"
 else
-    echo "$input is not a palindrome"
+    echo "$input is not a Palindrome"
 fi

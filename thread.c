@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include <unistd.h>
+// #include <unistd.h>
 #include <pthread.h>
 
-void *f()
+void *f(void *arg)
 {
     int i = 0;
 
